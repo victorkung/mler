@@ -1,0 +1,411 @@
+/************************ Universal ************************/
+
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family: 'Open Sans';
+}
+
+/************************ Dropdown arrow ************************/
+
+.arrow {
+	color: #fff;
+	font-size: 10px;
+}
+
+/************************ Home and hero nav Styles ************************/
+
+/*.desktop-nav {
+	padding-top: 5px;
+}*/
+
+
+.desktop-nav ul {
+	float: right;
+		}
+
+.desktop-nav ul li:not(.sub-list) {
+	float: left;
+	display: inline-block;
+	position: relative;
+	padding: 20px 20px 25px;
+	
+}
+
+.desktop-nav ul li:nth-of-type(2):hover {
+	color: #61C0C7;
+	background-color: white;
+
+}
+
+.desktop-nav ul li:nth-of-type(2):hover #sub-menu, .desktop-nav ul li:nth-of-type(2):hover .arrow {
+	color: #61C0C7;
+}
+
+.desktop-nav ul li a:hover {
+	color: #61C0C7;
+	
+}
+
+header a img {
+	display: inline-block;
+	float: left;
+	margin: 0px 0px 5px 78px;
+}
+
+.navlinks li a {
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	font-size: 15px;
+
+}
+
+#lastbutton {
+	border-radius: 5px;
+	border: 2px solid #fff;
+	padding: 8px 15px;
+	margin-right: 50px;
+}
+
+#lastbutton:hover {
+	background-color: #fff;
+}
+
+/************************ Purple Navigation Styles ********************/
+
+.main-header {
+	background-color: #615E79;
+}
+
+.desktop-nav ul li a:active {
+	color: #61C0C7;
+	
+}
+
+dl, ol, ul {
+	margin-bottom: 0rem;
+}
+
+/************************ Content Side Navigation Styles **************/
+
+.side-nav-link {
+	padding: 7px 0px;
+}
+
+
+.side-nav a {
+	font-size: 20px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	color: #4D6162;
+	text-decoration: none;
+	padding-left: 7px;
+}	
+
+.side-nav a:hover {
+	border-left: 4px solid #61C0C7;
+	
+}
+
+
+
+/************************ sub-menu Styles ************************/
+
+.sub-menu {
+	position:absolute;
+	background-color: white;
+	width: 235px;
+	padding: 0px;
+	margin: 49px 0 0 -116px;
+	list-style-type: none;
+	display: none;
+}
+
+.sub-list {
+	padding: 10px 0px 10px 20px;
+	
+}
+
+/*.sub-list:nth-of-type(2) {
+	padding: 20px 0px 20px 20px;
+}*/
+
+.sub-menu li a {
+	color: #4D6162;
+
+}
+
+#sub-menu:hover {
+	background: white;
+
+
+}
+
+.navlinks li:hover .sub-menu {
+	display: initial;
+
+}
+
+#last-dropdown-link {
+	/*padding-top: 55px;*/
+}
+
+/************************ Header Styles ************************/
+
+.heroarea {
+	height: 695px;
+	background: #3967A2 url('../img/chicago.jpg') no-repeat center / cover;
+}
+
+/************************ Hero Text Styles ********************/
+.herocontent {
+	text-align: center;
+	
+}
+
+.herocontent h1 {
+	font-weight: 400;
+	font-size: 35px;
+	margin: 0px;
+	color: white;
+}
+
+.herocontent h2 {
+	font-weight: 300;
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+
+
+.herocontent h3 a {
+	padding: 8px 30px;
+	background-color: #67E2EB;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 25px;
+	box-shadow: 0px 2px 13px -2px rgba(0,0,0,0.75);
+
+}
+
+.herocontent h3{
+	margin-top: 20px;
+}
+
+/************************ 3 col area styles ************************/
+
+.three-column-sec {
+	border: 1px solid #979797;
+	margin:40px 20px;
+	height: 340px;
+}
+
+.three-column-sec h4 {
+	color: #615E79;
+	font-family: 'Bentham';
+	margin: 25px 0px 0px 0px;
+}
+
+.three-column-sec p {
+	padding: 30px;
+	margin-top: 0px;
+}
+
+/************************ 3 col area button Styles ************************/
+
+.three-column-sec a {
+	margin: 0px 25px 35px 0px;
+	font-size: 17px;
+	text-decoration:none;
+	color: #61C0C7;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+.three-column-sec a::after {
+	content:url(../img/rightarrow.png);
+	position: relative;
+	top: 3px;
+	left: 5px;
+}
+
+/************************ Footer Styles ************************/
+
+footer {
+	background-color: #615E79;
+	margin-top: 70px;
+}
+
+footer p {
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+	margin: 0px;
+}
+
+.footer-top-p {
+	padding-top: 10px;
+}
+
+.footer-last-p {
+	padding-bottom: 15px;
+
+}
+
+/************************ Media Queries ************************/
+
+@media (min-width: 600px) {
+  .herocontent {
+	float: right;
+	text-align: right;
+	margin-right: 80px;
+	margin-top: 95px;
+	color: white;
+}
+
+.herocontent h1 {
+	font-weight: 700;
+	font-size: 53px;
+	margin: 0px;
+}
+
+.herocontent h2 {
+	font-weight: 400;
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+  
+}
+
+/************************ About page ************************/
+
+.content-heading {
+	font-family: 'Bentham';
+	font-size: 48px;
+	color: #0C222C;
+}
+
+.page-content h4 {
+	font-family: 'Bentham';
+	font-size: 34px;
+	color: #615E79;
+	margin: 50px 0px 0px; 
+}
+
+.page-content p {
+	color: #4A4A4A;
+	font-size: 15px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+}
+
+/*.page-content img {
+	margin-bottom: 40px;
+}*/
+
+
+.first-p {
+	margin-top: 30px;
+}
+
+
+/*.figure-sec h6 {
+	width: 250px;
+	font-family: 'Open Sans';
+	font-size: 15px;
+	font-weight: 400;
+
+}*/
+
+/************************ Programs /BAR PROCESS MANAGEMENT page **********/
+.page-content ul {
+	color:#4D6162;
+}
+
+.page-content h5 {
+	margin-top: 50px;
+	padding-bottom: 7px;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	color: #4D6162;
+	border-bottom: 3px solid #61C0C7;
+	display: inline-block;
+
+}
+
+.program-pricing p {
+	margin-bottom: 0px;
+}
+
+.program-pricing strong {
+	font-weight: 700;
+	color: #4D6162;
+}
+
+.in-ptag-link {
+	text-decoration: underline;
+	color: #61C0C7;
+}
+
+.coordinators p {
+	font-weight: 400;
+}
+
+
+.apply-btn h3 a {
+	padding: 12px 70px;
+	background-color: #61C0C7;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 600;
+	font-size: 25px;
+
+}
+
+.apply-btn h3 a:hover {
+	background-color: #67E2EB;
+}
+
+.exam-day strong {
+	font-weight: 700;
+}
+
+.exam-schedule p {
+	margin-bottom: 5px;
+}
+
+.exam-schedule ul li:first-child {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************ Clear Floats ************************/
+
+.clearfloat:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
