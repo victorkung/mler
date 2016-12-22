@@ -12,6 +12,7 @@
 		
 		<!-- Linked Bootstrap -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
 		<!-- linked CSS -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
@@ -20,98 +21,107 @@
 		
 		<!-- Hero area -->
 		
-		<div class="heroarea">
-			<header class="clearfloat">
-				<a href="http://mler.org" title="Minority Legal Education Resources" rel="home">
-					<img src="img/logo.png" alt="MLER logo">
-				</a>
-				<nav class="desktop-nav">
-					<ul class="navlinks">
-						<li>
-							<a href="about.html">About</a>
-						</li>
-						<li class="dropdown">
-							<a href="our-programs.html" id="sub-menu">Our Program</a>
-							<ul class="sub-menu">
-								<li class="sub-list">
-									<a href="our-programs.html">Bar Process Management</a>
-								</li>
-								<li class="sub-list">
-									<a href="Illinois-bar-exam.html" id="last-dropdown-link">Illinois Bar Exam</a>
-								</li>
-							</ul>
-							<span class="arrow">&#9660;</span>
-						</li>
-						<li>
-							<a href="students.html">students</a>
-						</li>
-						<li>
-							<a href="tutors.html">Tutors</a>
-						</li>
-						<li>
-							<a href="stay-engaged.html">Stay Engaged</a>
-						</li>
-						<li>
-							<a href="donate.html">Donate</a>
-						</li>
-						<li>
-							<a href="contact.html" id="lastbutton">Contact</a>
-						</li>
-					</ul>	
-				</nav>
+		<main class="hero">
+		
+    	<header class="home-header">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-3">
+      				<a href="http://mler.org" title="Minority Legal Education Resources" rel="home">
+      					<img src="img/logo.png" alt="MLER logo">
+      				</a>
+            </div>
+
+            <div class="col-xs-12 col-sm-9">
+
+              <nav class="desktop-nav">
+                <ul class="navlinks">
+                  <li><a href="about.html">About</a></li>
+                  <li class="menu-item-has-children"><a href="our-programs.html">Our Program</a>
+                  
+                    <ul class="dropdown">
+                      <li><a href="our-programs.html">Bar Process Management</a></li>
+                      <li><a href="Illinois-bar-exam.html" id="last-dropdown-link">Illinois Bar Exam</a></li>
+                    </ul>
+                    <span class="arrow">&#9660;</span>
+                  
+                  </li>
+                  
+                  <li><a href="students.html">Students</a></li>
+                  <li><a href="tutors.html">Tutors</a></li>
+                  <li><a href="stay-engaged.html">Stay Engaged</a></li>
+                  <li><a href="donate.html">Donate</a></li>
+                  <li><a href="contact.html" id="contact-btn">Contact</a></li>
+                </ul> 
+              </nav>
+
+            </div>
+          </div>
+        </div>
 
 			</header>
-			<div class="herocontent ">
-				<h1>Celebrate our 40<sup>th</sup> Anniversary</h1>
-				<h2>Dates and location to be announced</h2>
-				<h3><a href="#">RSVP NOW</a></h3>
-			</div>
-		</div> <!-- /Hero area -->
+
+
+      <section class="hero-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 offset-sm-1 col-sm-11 offset-md-2 col-md-10">
+        				<h1>Celebrate our 40<sup>th</sup> Anniversary</h1>
+        				<h2>Dates and location to be announced</h2>
+        				<h3><a href="#">RSVP NOW</a></h3>
+            </div>
+          </div>
+        </div>
+			</section>
+
+		</main> 
+
 		
 		<!-- Main content area -->
-		<div class="container">
-			<div class="row ">
-				<div class="col-md-4 mt-3 ">
-					<div class="three-column-sec clearfix">
+		<section class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-lg-4 mt-3">
+					<article class="three-column-sec clearfix">
 						<h4 class="text-xs-center">What we do</h4>
 						<p>Our mission is to increase diversity and inclusion in the legal profession by maintaining its “tradition of excellence” through its supplemental bar process management and pipeline programs.</p>
 						<a href="#" class="float-xs-right">LEARN MORE</a>
-					</div>
+					</article>
 				</div>
 					
-				<div class="col-md-4 mt-3 ">
-					<div class="three-column-sec clearfix">
+				<div class="col-xs-12 col-sm-6 col-lg-4 mt-3 ">
+					<article class="three-column-sec clearfix">
 						<h4 class="text-xs-center">Who are we</h4>
 						<p>Our mission is to increase diversity and inclusion in the legal profession by maintaining its “tradition of excellence” through its supplemental bar process management and pipeline programs. </p>
 						<a href="#" class="float-xs-right">OUR STORY</a>
-					</div>
+					</article>
 				</div>
 					
-				<div class="col-md-4 mt-3">
-					<div class="three-column-sec clearfix">
+				<div class="col-xs-12 offset-sm-3 col-sm-6 offset-md-0 col-lg-4 mt-3">
+					<article class="three-column-sec clearfix">
 						<h4 class="text-xs-center">How to get involved</h4>
 						<p>Our mission is to increase diversity and inclusion in the legal profession by maintaining its “tradition of excellence” through its supplemental bar process management and pipeline programs.</p>
 						<a href="#" class="float-xs-right">GET STARTED</a>
 					</div>
-				</div>
+				</article>
 			</div>
 
-		</div>
+		</section>
 	
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-xs-4">
+					<div class="col-xs-12 col-sm-4">
 						<p class="footer-top-p"> Copyright © Minority Legal Education Resources </p>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-12 col-sm-4">
 						<p class="footer-top-p">MLER is a 501(c)(3) tax-exempt entity and all donations</p>
 						<p>made to MLER are tax deductable to extent</p>
 						<p class="footer-last-p">permissible by law.</p>
 					</div>
 					
-					<div class="col-xs-4">
-						<p class="footer-top-p">MLER, Inc., PO Box 804566, Chicago, IL 60680-4566</p>
+					<div class="col-xs-12 col-sm-4">
+						<address class="footer-top-p">MLER, Inc., PO Box 804566, Chicago, IL 60680-4566</address>
 					</div>
 				</div>
 			</div>
