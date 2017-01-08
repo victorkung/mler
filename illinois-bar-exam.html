@@ -18,65 +18,80 @@
 	</head>
 	<body data-spy="scroll" data-target=".side-nav">
 		
-		<!-- Hero area -->
-		
-		<div class="main-header">
-			<header class="clearfloat">
-				<a href="http://mler.org" title="Minority Legal Education Resources" rel="home">
-					<img src="img/logo.png" alt="MLER logo">
-				</a>
-				<nav class="desktop-nav">
-					<ul class="navlinks">
-						<li>
-							<a href="about.html">About</a>
-						</li>
-						<li class="dropdown">
-							<a href="our-programs.html" id="sub-menu">Our Program</a>
-							<ul class="sub-menu">
-								<li class="sub-list">
-									<a href="our-programs.html">Bar Process Management</a>
-								</li>
-								<li class="sub-list">
-									<a href="Illinois-bar-exam.html" id="last-dropdown-link">Illinois Bar Exam</a>
-								</li>
-							</ul>
-							<span class="arrow">&#9660;</span>
-						</li>
-						<li>
-							<a href="students.html">students</a>
-						</li>
-						<li>
-							<a href="tutors.html">Tutors</a>
-						</li>
-						<li>
-							<a href="stay-engaged.html">Stay Engaged</a>
-						</li>
-						<li>
-							<a href="donate.html">Donate</a>
-						</li>
-						<li>
-							<a href="contact.html" id="lastbutton">Contact</a>
-						</li>
-					</ul>	
-				</nav>
+		<!-- <div class="main-header"> -->
+		<header class="home-header main-header">
+        
+	        <div class="container-fluid">
+	          <div class="row">
+	            <div class="col-xs-12 col-sm-3 ">
+	      				<a href="index.html" title="Minority Legal Education Resources" rel="home">
+	      					<img src="img/logo.png" alt="MLER logo" id="logo">
+	      				</a>
+	            </div>
 
-			</header>
-		</div>	
+	            <div class="col-xs-12 col-sm-9 ">
+
+	              <nav class="desktop-nav">
+	                <ul class="navlinks">
+	                  <li><a href="about.html">About</a></li>
+	                  <li class="menu-item-has-children"><a href="our-programs.html" class="selected">Our Program</a>
+	                  
+	                    <ul class="dropdown-content">
+	                      <li><a href="our-programs.html">Bar Process Management</a></li>
+	                      <li><a href="Illinois-bar-exam.html" id="last-dropdown-link" class="selected">Illinois Bar Exam</a></li>
+	                    </ul>
+	                  
+	                  </li>
+	                  
+	                  <li><a href="students.html">Students</a></li>
+	                  <li><a href="tutors.html">Tutors</a></li>
+	                  <li><a href="stay-engaged.html">Stay Engaged</a></li>
+	                  <li><a href="donate.html">Donate</a></li>
+	                  <li><a href="contact.html" id="contact-btn">Contact</a></li>
+	                </ul> 
+	              </nav>
+
+	            </div>
+	          </div>
+	        </div>
+
+		</header>
+
+		<div class="mobile-nav">
+			<nav>
+	      		<ul>
+	              <li id="first-side-nav-li"><a href="about.html">About</a></li>
+	              <li><a href="our-programs.html">Our Program</a>
+	                <ul>
+	                  <li><a href="our-programs.html">Bar Process Management</a></li>
+	                  <li><a href="Illinois-bar-exam.html">Illinois Bar Exam</a></li>
+	                </ul>
+	              
+	              </li>
+	              
+	              <li><a href="students.html">Students</a></li>
+	              <li><a href="tutors.html">Tutors</a></li>
+	              <li><a href="stay-engaged.html">Stay Engaged</a></li>
+	              <li><a href="donate.html">Donate</a></li>
+	              <li><a href="contact.html">Contact</a></li>
+	            </ul> 
+			</nav>
+		</div>
 			
 			<div class="container " >
 				
 				<div class="row">
-					<div class="col-xs-12 offset-md-1 mt-3 mb-2">
+					<div class="col-xs-12 offset-md-1 mt-3 ">
 						<h1 class="content-heading">ILLINOIS BAR EXAM</h1>
 					</div>
 				</div>
 
 				<div class="row">								
-					<div class="col-md-8 col-xs-12 offset-md-4">
-						<div class="page-content">	
-							<p class="first-p">The Illinois Bar Examination is administered by the Illinois Board of Admissions to the Bar as part of the process of identifying and recommending to the Supreme Court qualified candidates for admission to the Illinois Bar. The Examination spans two days— the last consecutive Tuesday and Wednesday in February and July—with the performance test and essays on Tuesday and the multiple-choice Multistate Bar Exam on Wednesday.</p>
+					<div class="col-md-7 col-xs-12 offset-md-4">
+						<div class="page-content Illinois-bar-exam">	
+							<p>The Illinois Bar Examination is administered by the Illinois Board of Admissions to the Bar as part of the process of identifying and recommending to the Supreme Court qualified candidates for admission to the Illinois Bar. The Examination spans two days— the last consecutive Tuesday and Wednesday in February and July—with the performance test and essays on Tuesday and the multiple-choice Multistate Bar Exam on Wednesday.</p>
 							
-							<h5>About the Exam</h5>
+							<h5 id="the-exam">About the Exam</h5>
 
 							<p class="first-p">The Illinois Bar Exam essays can include contracts, criminal law, torts, evidence, constitutional law, real property, administrative law, agency and partnership, business organizations, commercial paper, conflicts of law, criminal procedure, equity, family law, federal taxation, Illinois civil procedure, secured transactions, suretyship, trusts and future interests, and wills and estates.</p>
 
@@ -84,7 +99,7 @@
 
 							<p class="first-p">The forms and instructions are available on the bar examiner’s website.</p>
 
-							<h5>Multistate Bar Exam Schedule</h5>
+							<h5 id="Multistate-Bar-Exam">Multistate Bar Exam Schedule</h5>
 
 							<div class="exam-schedule">
 								<p class="first-p exam-day"> <strong>Day One (Tuesday) Morning
@@ -135,17 +150,17 @@
 			<footer>
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-4">
+						<div class="col-xs-12 col-md-4">
 							<p class="footer-top-p"> Copyright © Minority Legal Education Resources </p>
 						</div>
-						<div class="col-xs-4">
+						<div class="col-xs-12 col-md-4">
 							<p class="footer-top-p">MLER is a 501(c)(3) tax-exempt entity and all donations</p>
 							<p>made to MLER are tax deductable to extent</p>
 							<p class="footer-last-p">permissible by law.</p>
 						</div>
 						
-						<div class="col-xs-4">
-							<p class="footer-top-p">MLER, Inc., PO Box 804566, Chicago, IL 60680-4566</p>
+						<div class="col-xs-12 col-md-4">
+							<address class="footer-top-p">MLER, Inc., PO Box 804566, Chicago, IL 60680-4566</address>
 						</div>
 					</div>
 				</div>

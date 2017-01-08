@@ -9,4 +9,18 @@ $(document).ready(function() {
      }, 800);
   });
 
+//mobile nav
+$('#nav-toggle').on('click', function(e){
+	$('nav').toggleClass('active-nav');
+	e.preventDefault();
+});
+
+//modal
+$('#contact-btn').click(function(e){
+	e.preventDefault();
+	$('.modal').fadeOut();
+
+});
+
+
 });
