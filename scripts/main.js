@@ -10,16 +10,25 @@ $(document).ready(function() {
   });
 
 //mobile nav
-$('#nav-toggle').on('click', function(e){
-	$('nav').toggleClass('active-nav');
+$('#nav-open').on('click', function(e){
 	e.preventDefault();
+  $('.mobile-nav').fadeIn();
+});
+$('#nav-close').on('click', function(e){
+  e.preventDefault();
+  $('.mobile-nav').fadeOut();
 });
 
-//modal
-$('#contact-btn').click(function(e){
-	e.preventDefault();
-	$('.modal').fadeOut();
 
+//modal
+$('.contact-btn').click(function(e){
+	e.preventDefault();
+	$('.modal').fadeIn();
+});
+
+$('#modal-close-btn').click(function(e){
+  e.preventDefault();
+  $('.modal').fadeOut();
 });
 
 

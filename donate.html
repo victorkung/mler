@@ -1,182 +1,217 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta charset="utf-8">
-		<title>Illinois Bar Exam - Minority Legal Education Resources</title>
-		<meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale = 1.0" />
-		  <meta name="description" content="" />
-		<link rel="icon" type="image/png" href="img/logo.png">
-		<link href="https://fonts.googleapis.com/css?family=Bentham|Open+Sans:300,400,600,700" rel="stylesheet">
+<head>
+	<meta charset="utf-8">
+	<title>Illinois Bar Exam - Minority Legal Education Resources</title>
+	<meta HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0" />
+	<meta name="description" content="" />
+	<link rel="icon" type="image/png" href="img/logo.png">
+	
+	<!-- Linked Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+
+	<!-- Linked CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Linked Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Bentham|Open+Sans:300,400,600,700" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".side-nav">
+	
+
+	<header class="home-header main-header">
 		
-		<!-- Linked Bootstrap -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
-		<!-- linked CSS -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
-	</head>
-	<body data-spy="scroll" data-target=".side-nav">
-		
-	<!-- <div class="main-header"> -->
-		<header class="home-header main-header">
-        
-	        <div class="container-fluid">
-	          <div class="row">
-	            <div class="col-xs-12 col-sm-3 ">
-	      				<a href="index.html" title="Minority Legal Education Resources" rel="home">
-	      					<img src="img/logo.png" alt="MLER logo" id="logo">
-	      				</a>
-	            </div>
-
-	            <div class="col-xs-12 col-sm-9 ">
-
-	              <nav class="desktop-nav">
-	                <ul class="navlinks">
-	                  <li><a href="about.html">About</a></li>
-	                  <li class="menu-item-has-children"><a href="our-programs.html">Our Program</a>
-	                  
-	                    <ul class="dropdown-content">
-	                      <li><a href="our-programs.html">Bar Process Management</a></li>
-	                      <li><a href="Illinois-bar-exam.html" id="last-dropdown-link">Illinois Bar Exam</a></li>
-	                    </ul>
-	                  
-	                  </li>
-	                  
-	                  <li><a href="students.html">Students</a></li>
-	                  <li><a href="tutors.html">Tutors</a></li>
-	                  <li><a href="stay-engaged.html">Stay Engaged</a></li>
-	                  <li><a href="donate.html" class="selected">Donate</a></li>
-	                  <li><a href="contact.html" id="contact-btn">Contact</a></li>
-	                </ul> 
-	              </nav>
-
-	            </div>
-	          </div>
-	        </div>
-
-		</header>
-
-		<div class="mobile-nav">
-			<nav>
-	      		<ul>
-	              <li id="first-side-nav-li"><a href="about.html">About</a></li>
-	              <li><a href="our-programs.html">Our Program</a>
-	                <ul>
-	                  <li><a href="our-programs.html">Bar Process Management</a></li>
-	                  <li><a href="Illinois-bar-exam.html">Illinois Bar Exam</a></li>
-	                </ul>
-	              
-	              </li>
-	              
-	              <li><a href="students.html">Students</a></li>
-	              <li><a href="tutors.html">Tutors</a></li>
-	              <li><a href="stay-engaged.html">Stay Engaged</a></li>
-	              <li><a href="donate.html">Donate</a></li>
-	              <li><a href="contact.html">Contact</a></li>
-	            </ul> 
-			</nav>
-		</div>
-			
-		<div class="container " >
-			
+		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 offset-md-1 mt-3 ">
-					<h1 class="content-heading">DONATE</h1>
+				<div class="col-xs-6 col-sm-3 ">
+					<a href="index.html" title="Minority Legal Education Resources" rel="home">
+						<img src="img/logo.png" alt="MLER logo" id="logo">
+					</a>
+				</div>
+
+				<div class="col-xs-6 col-sm-9 ">
+
+					<!-- mobile nav toggle -->
+					<a href="#" id="nav-open"><img src="img/menu-burger.png"></a>
+
+					<nav class="desktop-nav">
+						<ul class="navlinks">
+							<li><a href="about.html">About</a></li>
+
+							<li class="menu-item-has-children"><a href="#">Our Program</a>
+								<ul class="dropdown-content">
+									<li><a href="bar-process-management.html">Bar Process Management</a></li>
+									<li><a href="Illinois-bar-exam.html" id="last-dropdown-link">Illinois Bar Exam</a></li>
+								</ul>
+							</li>
+
+							<li><a href="students.html">Students</a></li>
+
+							<li class="menu-item-has-children"><a href="#">Tutors</a>
+								<ul class="dropdown-content">
+									<li><a href="become-a-tutor.html">Become a Tutor</a></li>
+									<li><a href="tutors.html" id="last-dropdown-link">Log in</a></li>
+								</ul>
+							</li>
+
+							<li><a href="stay-engaged.html">Stay Engaged</a></li>
+							<li><a href="donate.html">Donate</a></li>
+							<li><a href="#" class="contact-btn">Contact</a></li>
+						</ul> 
+					</nav>
+
 				</div>
 			</div>
+		</div>
 
-			<div class="row">								
-				<div class="col-md-7 col-xs-12 offset-md-4">
-					<div class="page-content">	
-						
-						<img src="img/city-trainview.jpg" alt="MLER law case banner" class="img-fluid">
+	</header>
 
-						<p class="first-p">Diversity is key to the success of the legal profession. Please consider one of the following quick and easy ways to support MLER, an organizations you respect and adds value to society, your career and the legal profession.</p>
+	<div class="mobile-nav">
+		<nav>
+			<div class="container-fluid">
+				<a href="#" id="nav-close"><img src="img/menu-burger.png"></a>
+				<ul>
+					<li id="first-side-nav-li"><a href="about.html">About</a></li>
+					<li><a href="our-programs.html">Our Program</a>
+						<ul>
+							<li><a href="our-programs.html">Bar Process Management</a></li>
+							<li><a href="Illinois-bar-exam.html">Illinois Bar Exam</a></li>
+						</ul>
+					</li>
+					<li><a href="students.html">Students</a></li>
+					<li><a href="tutors.html">Tutors</a></li>
+					<li><a href="stay-engaged.html">Stay Engaged</a></li>
+					<li><a href="donate.html">Donate</a></li>
+					<li><a href="contact.html" class="contact-btn">Contact</a></li>
+				</ul> 
+			</div>
+		</nav>
+	</div>
+	
+	<div class="container" >
+		
+		<div class="row">
+			<div class="col-xs-12 offset-md-1 mt-3 ">
+				<h1 class="content-heading">DONATE</h1>
+			</div>
+		</div>
 
-						<div class="program-pricing">
-							<ul>	
-								<li>
-									<p class="first-p">Coffee/Tea Breaks for a day – Donate one day’s Starbuck’s or Argo Tea breaks – One less day of caffeine will keep the doctor away</p>
-								</li>
-								<li>
-									<p>Coffee/Tea Breaks for a week – Donate the equivalent of a week’s Starbucks or Argo Tea breaks</p>
-								</li>
-								<li>
-									<p>Lunch for a day</p>
-								</li>
-								<li>
-									<p>Lunch for a week</p>
-								</li>
-								<li>
-									<p>Sponsor a Student – <strong>$425</strong></p>
-								</li>
-								<li>
-									<p>MLER Jeans Day at your Firm/Corporation/Organization</p>
-								</li>
-								<li>
-									<p>Copying Services for a Program/Multiple Programs/Bar Preparation – <strong>$200 / $400 / $600</strong></p>
-								</li>
-								<li>
-									<p>Printing Services for a Program – <strong>$500</strong></p>
-								</li>
-								<li>
-									<p>Sponsor a Program – <strong>$500</strong></p>
-									<p>MLER Bar Preparation —</p>
-									<p>Professional Skills—</p>
-									<p>Study Skills—</p>
-								</li>
-								<li>
-									<p>Monthly Gift (recurring payments)</p>
-									<p>$10</p>
-									<p>$25</p>
-									<p>$50</p>
-									<p>$100</p>
-								</li>
+		<div class="row">								
+			<div class="col-md-7 col-xs-12 offset-md-4">
+				<div class="page-content">	
+					
+					<img src="img/city-trainview.jpg" alt="MLER law case banner" class="img-fluid">
 
-							</ul>
-							<p class="first-p" id="donate-irs-p"> 
-								<strong >Minority Legal Education Resources, Inc is a Section 501(c)(3) of the Internal Revenue Code and all donations to MLER are tax deductible.</strong>
-							</p>
+					<p class="first-p">Diversity is key to the success of the legal profession. Please consider one of the following quick and easy ways to support MLER, an organizations you respect and adds value to society, your career and the legal profession.</p>
 
-						</div>
+					<div class="program-pricing">
+						<ul>	
+							<li>
+								<p class="first-p">Coffee/Tea Breaks for a day – Donate one day’s Starbuck’s or Argo Tea breaks – One less day of caffeine will keep the doctor away</p>
+							</li>
+							<li>
+								<p>Coffee/Tea Breaks for a week – Donate the equivalent of a week’s Starbucks or Argo Tea breaks</p>
+							</li>
+							<li>
+								<p>Lunch for a day</p>
+							</li>
+							<li>
+								<p>Lunch for a week</p>
+							</li>
+							<li>
+								<p>Sponsor a Student – <strong>$425</strong></p>
+							</li>
+							<li>
+								<p>MLER Jeans Day at your Firm/Corporation/Organization</p>
+							</li>
+							<li>
+								<p>Copying Services for a Program/Multiple Programs/Bar Preparation – <strong>$200 / $400 / $600</strong></p>
+							</li>
+							<li>
+								<p>Printing Services for a Program – <strong>$500</strong></p>
+							</li>
+							<li>
+								<p>Sponsor a Program – <strong>$500</strong></p>
+								<p>MLER Bar Preparation —</p>
+								<p>Professional Skills—</p>
+								<p>Study Skills—</p>
+							</li>
+							<li>
+								<p>Monthly Gift (recurring payments)</p>
+								<p>$10</p>
+								<p>$25</p>
+								<p>$50</p>
+								<p>$100</p>
+							</li>
+
+						</ul>
+						<p class="first-p" id="donate-irs-p"> 
+							<strong >Minority Legal Education Resources, Inc is a Section 501(c)(3) of the Internal Revenue Code and all donations to MLER are tax deductible.</strong>
+						</p>
+
 					</div>
 				</div>
 			</div>
 		</div>
-		
+	</div>
+	
 
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-md-4">
-						<p class="footer-top-p"> Copyright © Minority Legal Education Resources </p>
-					</div>
-					<div class="col-xs-12 col-md-4">
-						<p class="footer-top-p">MLER is a 501(c)(3) tax-exempt entity and all donations</p>
-						<p>made to MLER are tax deductable to extent</p>
-						<p class="footer-last-p">permissible by law.</p>
-					</div>
-					
-					<div class="col-xs-12 col-md-4">
-						<address class="footer-top-p">MLER, Inc., PO Box 804566, Chicago, IL 60680-4566</address>
-					</div>
+	<!-- modal -->
+	<div class="modal" >
+		<div class="modal-container">
+			<form action="#" method="post">
+				<a id="modal-close-btn" href="#"><img src="img/close-btn.png" alt=""></a>
+				<h1>Contact Us</h1>
+				<label for="name">Your full name (required) </label>
+				<input type="text" id="name" name="user_name">
+				<label for="mail">Your Email</label>
+				<input type="email" id="mail" name="user_email">
+				<label for="name">Subject </label>
+				<input type="text" name="subject" id="subject" />
+				<label for="message">Your Message</label>
+				<textarea id="message" name="user_message"></textarea>
+				
+				<div id="submit-button">
+					<button type="submit" value="submit" class="login-button">Send</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+					<p class="footer-top-p"> Copyright © Minority Legal Education Resources </p>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<p class="footer-top-p">MLER is a 501(c)(3) tax-exempt entity and all donations</p>
+					<p>made to MLER are tax deductable to extent</p>
+					<p class="footer-last-p">permissible by law.</p>
+				</div>
+				
+				<div class="col-xs-12 col-md-4">
+					<address class="footer-top-p">MLER, Inc., PO Box 804566, Chicago, IL 60680-4566</address>
 				</div>
 			</div>
-		</footer>
-		
+		</div>
+	</footer>
+	
 
-		<!-- External JavaScript -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		  <!-- Website JavaScript -->
-		<script src="scripts/main.js"></script>
+	<!-- External JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<!-- Website JavaScript -->
+	<script src="scripts/main.js"></script>
 
 
-		</body>
-	</html>
+</body>
+</html>
 
 
 
